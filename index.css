@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0.2rem;
+}
+
+
+.header h1{
+    color: rgb(201, 34, 34);
+    font-size: 3rem;
+    
+}
+
+.links{
+    display: flex;
+    
+    
+}
+.links a{
+    margin: 1rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    
+    flex-direction: column;
+}
+
+.content h2{
+    color: purple;
+    font-size: 1.7rem;
+}
+
+
+.content p{
+    margin-top: 1rem
+}
+
+.content h3{
+    margin-top: 1rem;
+    color: goldenrod;
+}
+
+.content ul{
+    margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ h1{
+    color: purple;
+}
+.contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 0.5rem;
+}
+.container li {
+    list-style: none;
+}
+
+.container ul li span{
+    font-weight: bolder;
+   
+}
+.container ul li p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img{
+    max-width: 250px;
+   
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.main span{
+    margin-top: 3rem;
+    color: rgb(230, 172, 27);
+    font-weight: bolder;
+}
